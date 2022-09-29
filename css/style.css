@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 66, 66);
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+#imagem{
+    height: 111px;
+    width: 387px;
+    top: 40%;
+    right: 43%;
+    padding-top: 10%;
+    padding-bottom: 12%;
+}
+
+#dsgInterface{
+    width: 400px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#dsgInterface2{
+    width: 600px;
+    position: relative;
+    left: 125%;
+    bottom: 60%;
+}
+
+#idVisual{
+    position: absolute;
+    left: 115px;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#titulo1{
+    text-align: justify;
+    position: relative;
+    left: 125%;
+    bottom: 80%;
+}
+
+#video1{
+    width: 600px;
+    position: relative;
+    left: 125%;
+    bottom: 80%;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#titulo2{
+    text-align: justify;
+    position: relative;
+    right: 175%;
+    bottom: 40%;
+}
+
+#video2{
+    width: 600px;
+    position: relative;
+    right: 175%;
+    bottom: 40%;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+.box1{
+    width: 400px;
+    height: 600px;
+    position:relative;
+    bottom: 5%;
+    left: 2%;
+    background-color: rgb(201, 16, 16);
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 3%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.box2{
+    position:relative;
+    left: 60%;
+    top: 50%;
+    width: 400px;
+    height: 600px;;
+    background-color: rgb(201, 16, 16);
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 3%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+footer {
+    padding-bottom: 4%;
+    padding-top: 2%;
+    border-top: 2px solid rgb(255, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    left: 33%;
+    bottom: 5%;
+}
+
+.button {
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
